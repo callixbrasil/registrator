@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/callixbrasil/registrator/bridge"
 	"github.com/coreos/go-etcd/etcd"
-	"github.com/gliderlabs/registrator/bridge"
 )
 
 func init() {
